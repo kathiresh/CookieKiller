@@ -1,0 +1,22 @@
+{
+  "name": "Cookie Killer",
+  "version": "0.1",
+  "manifest_version" : 2,
+  "permissions": [
+    "cookies",
+    "<all_urls>",
+    "tabs",
+    "bookmarks",
+    "unlimitedStorage"
+  ],
+  "web_accessible_resources": ["images/icon.png"],
+  "description": "Keep up with the latest from [insert web site here].",
+  "icons": { "16" : "images/icon.png", "48" : "images/icon.png"},
+  "homepage_url": "https://kathireshblog.wordpress.com/",
+        "background": "background.html",
+        "browser_action": {
+          "default_icon": "images/icon.png",
+          "default_title": "Delete Current Site Cookies",
+          "default_popup": "popup.html"
+        }
+}

@@ -1,0 +1,13 @@
+body {
+    min-width:125px;
+    background-color: #009fd4;
+    color: white;
+}
+
+#speed-list {
+	display: none;
+}
+
+.align-center {
+	text-align: center;
+}
